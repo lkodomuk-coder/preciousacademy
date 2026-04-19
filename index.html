@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bright Future Primary School</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f4f6f9;
+    }
+
+    /* HEADER */
+    header {
+        background: #1e3a8a;
+        color: white;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    nav a {
+        color: white;
+        margin: 0 10px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    /* HERO SECTION */
+    .hero {
+        background: url('https://images.unsplash.com/photo-1596495577886-d920f1fb7238') center/cover;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+    }
+
+    .hero h2 {
+        background: rgba(0,0,0,0.5);
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    /* SECTION */
+    .container {
+        padding: 20px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+    }
+
+    .card {
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    .card h3 {
+        color: #1e3a8a;
+    }
+
+    /* NEWS */
+    .news {
+        background: white;
+        padding: 15px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    .news ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .news li {
+        padding: 8px 0;
+        border-bottom: 1px solid #ddd;
+    }
+
+    /* FOOTER */
+    footer {
+        background: #1e3a8a;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 20px;
+    }
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Bright Future Primary School</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Admissions</a>
+        <a href="#">Results</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h2>Welcome to Bright Future Primary School<br>“Education for a Better Tomorrow”</h2>
+</div>
+
+<div class="container">
+
+    <h2>Quick Access</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Admissions</h3>
+            <p>Join our school today and secure your child's future.</p>
+        </div>
+
+        <div class="card">
+            <h3>Student Portal</h3>
+            <p>Access homework, notes and results online.</p>
+        </div>
+
+        <div class="card">
+            <h3>Teachers</h3>
+            <p>Manage classes, attendance and lesson plans.</p>
+        </div>
+
+        <div class="card">
+            <h3>Fees Info</h3>
+            <p>View and download fee structure easily.</p>
+        </div>
+    </div>
+
+    <div class="news">
+        <h2>Latest News & Events</h2>
+        <ul>
+            <li>📢 Grade 6 mock exams start on 5th May</li>
+            <li>🏆 School football team wins district finals</li>
+            <li>📅 Parents meeting scheduled for 12th April</li>
+            <li>🎓 Class 8 graduation preparations ongoing</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Bright Future Primary School | Nairobi, Kenya</p>
+</footer>
+
+</body>
+</html>
